@@ -20,9 +20,9 @@ Found 10 analytics rules
   [✓] Exported: restore TEST_ALERT_API
   [✓] Exported: restore TEST_ALERT_API
 
-========================================
+
 Export Summary
-========================================
+
 Backup Location: .\SentinelBackups\20260206_111512
 Successfully exported: 10 rules
-========================================
+
