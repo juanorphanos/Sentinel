@@ -1,7 +1,7 @@
 # Sentinel
 
 ## Export Rules
-
+´´´powershell
 PS C:\ScriptEnterpriseApps> .\Export-SentinelAnalyticsRules.ps1 -SubscriptionId "XXXXXXXXXXXXXXXXXXXXXXXXXX" -ResourceGroupName "rg-sentinel" -WorkspaceName "la-stnl-001"
 Checking Azure connection...
 Setting subscription context to: XXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -25,4 +25,4 @@ Export Summary
 
 Backup Location: .\SentinelBackups\20260206_111512
 Successfully exported: 10 rules
-
+´´´
