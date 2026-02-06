@@ -131,15 +131,7 @@ Export all rules from a workspace:
     -BackupPath "C:\SentinelBackups\Production"
 ```
 
-**Automated daily backup (scheduled task):**
 
-```powershell
-# Schedule a daily export at 2 AM
-$action = New-ScheduledTaskAction -Execute 'PowerShell.exe' `
-    -Argument '-File "C:\Scripts\Export-SentinelAnalyticsRules.ps1" -SubscriptionId "12345678-1234-1234-1234-123456789012" -ResourceGroupName "rg-sentinel" -WorkspaceName "la-stnl-001"'
-$trigger = New-ScheduledTaskTrigger -Daily -At 2am
-Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "SentinelBackup" -Description "Daily Sentinel rules backup"
-```
 
 ### Output Structure
 
