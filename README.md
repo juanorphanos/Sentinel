@@ -3,8 +3,7 @@
 ## Requisitos
 
 - PowerShell 7
-- Modulo Az
-
+- Modulo Az (Install-Module Az)
 
 ## Export Rules
 ```powershell
