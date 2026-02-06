@@ -1,5 +1,11 @@
 # Sentinel
 
+## Requisitos
+
+- PowerShell 7
+- Modulo Az
+
+
 ## Export Rules
 ```powershell
 PS C:\ScriptEnterpriseApps> .\Export-SentinelAnalyticsRules.ps1 -SubscriptionId "XXXXXXXXXXXXXXXXXXXXXXXXXX" -ResourceGroupName "rg-sentinel" -WorkspaceName "la-stnl-001"
